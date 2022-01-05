@@ -1,6 +1,8 @@
 #title {
   background-color: #ff4c68;
   color: white;
+  position: relative;
+  z-index: -2;
 }
 
 .container-fluid {
@@ -64,6 +66,7 @@ p {
 .title-image {
   transform: rotate(25deg);
   width: 60%;
+  z-index: -1;
 }
 
 /* Features */
@@ -71,6 +74,8 @@ p {
 #features {
   text-align: center;
   padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 
 .icon {
@@ -126,5 +131,5 @@ p {
 }
 
 .pricing-column {
-  padding: 3% 2%; 
+  padding: 3% 2%;
 }
