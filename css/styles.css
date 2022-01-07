@@ -1,5 +1,4 @@
 /* HTML Tags */
-
 body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -15,7 +14,6 @@ p {
 }
 
 /* Headings */
-
 .big-heading {
   color: #fff;
   font-size: 3.5rem;
@@ -28,21 +26,23 @@ p {
   line-height: 1.5;
 }
 
-/* Title Section */
-
-#title {
-  background-color: #ff4c68;
-  color: white;
-  text-align: left;
-}
-
+/* Containers */
 .container-fluid {
   padding: 7% 15%;
 }
 
+/* Sections */
+
+.color-background {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-background {
+  background-color: white;
+}
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -62,14 +62,19 @@ p {
   font-weight: 100;
 }
 
-/* Buttons */
+/* Title Section */
 
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Buttons */
 .download-button {
-    margin: 5% 3% 5% 0;
+  margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
-
 .title-image {
   transform: rotate(25deg);
   width: 60%;
@@ -78,9 +83,7 @@ p {
 }
 
 /* Features */
-
 #features {
-  background-color: white;
   position: relative;
 }
 
@@ -103,10 +106,8 @@ p {
 }
 
 /* Testimonials */
-
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-image {
@@ -125,13 +126,12 @@ p {
   padding-bottom: 3%;
 }
 
-.press-logo{
+.press-logo {
   width: 15%;
   margin: 20px;
 }
 
 /* Pricing */
-
 #pricing {
   padding: 100px;
 }
@@ -147,16 +147,11 @@ p {
 
 /* Call to Action */
 
-#cta {
-  background-color: #ff4c68;
-}
-
 .cta-button {
   margin: 15px 15px;
 }
 
 /* Footer */
-
 #footer {
   background-color: #fff;
 }
@@ -166,9 +161,7 @@ p {
 }
 
 /* Media Query Breakpoints */
-
 @media (max-width: 1028px) {
-
   #title {
     text-align: center;
   }
